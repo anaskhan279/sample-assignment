@@ -1,0 +1,29 @@
+.board {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.column {
+  flex: 0 0 auto;
+  margin: 0 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.header {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks {
+  min-height: 100px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
